@@ -3,6 +3,12 @@
 ## Introduction
 This exercise aims to explore and visualise relationships and outliers from a synthetic dataset of historic vehicle accidents on UK roads, spanning five years. The findings may not seem realistic, as the dataset is generated and does not correspond to real life. The following pages will display five relation-ships found in the data and two outliers.
 
+## How to run?
+1. Setup you R enviroment. Read more here: https://www.rstudio.com/
+2. In R-Studio paste "import ggplot2" on the top of the file you are working on.
+3. Run in the console: setwd("C:/yourworkingdir")
+4. Paste "dataset <- read.csv("dataset.csv")"
+
 ## Outliers
 ### Global Outlier “Severity to Damage”. (fig.1)
 ![fig1](/figs/fig1.png)
