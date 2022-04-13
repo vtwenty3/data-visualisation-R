@@ -6,7 +6,8 @@ This exercise aims to explore and visualise relationships and outliers from a sy
 ## Outliers
 ### Global Outlier “Severity to Damage”. (fig.1)
 ![fig1](/figs/fig1.png)
-  ggplot(dataset, aes(x = Damage, y = Severity)) + geom_point()
+    ggplot(dataset, aes(x = Damage, y = Severity)) + geom_point()
+
 A scatterplot is used to visualise this outlier. Moreover, there is a clear relationship between Severity and Damage which are continuous variables. As seen in fig.1 “Se-verity” and “Damage” are connected. The outliers are the points around the line, which do not obey the relationship between the two variables. This is a global outlier in table “Damage”.
 
 ### Outlier “Speed” (fig.2)
